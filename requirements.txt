@@ -1,4 +1,5 @@
-streamlit
-numpy
+fastapi
+uvicorn
 scikit-learn
-openai
+numpy
+pandas

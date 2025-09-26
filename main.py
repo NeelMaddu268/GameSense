@@ -7,7 +7,7 @@ import random
 app = FastAPI()
 
 # Allow Vite frontend
-origins = ["http://localhost:5173"]
+origins = ["*"]
 
 app.add_middleware(
     CORSMiddleware,
